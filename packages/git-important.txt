@@ -1,0 +1,12 @@
+Fork:
+  - Forked the Telescope repo
+  - Now move to my fork:
+  git remote add huynh-fork git@github...git
+  git fetch huynh-fork
+  git push huynh-fork
+
+  - Added origin to the repo
+  - Now only write on huynh-fork.
+  - Sync with the origin:
+    git fetch origin
+    git push origin

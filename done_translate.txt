@@ -1,0 +1,12 @@
+telescope-categories
+telescope-comments
+telescope-core
+    - có thể đổi "powered_by_telescope"
+telescope-daily
+telescope-email
+telescope-notifications
+telescope-page
+telescope-search
+telescope-singleday
+telescope-user
+TODO: Telescope: Change date-time format

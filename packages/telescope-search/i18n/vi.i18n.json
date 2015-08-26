@@ -1,3 +1,6 @@
 {
-  "load_more" : "Xem thêm"
+  "load_more" : "Xem thêm",
+  "search" : "Tìm kiếm",
+  "search_logs" : "Lịch sử tìm kiếm",
+  "see_what_people_are_searching_for" : "Xem mọi người đang tìm gì."
 }

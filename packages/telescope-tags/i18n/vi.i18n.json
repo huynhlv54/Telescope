@@ -1,2 +1,6 @@
 {
+  "categories" : "Thể loại",
+  "add_and_remove_categories" : "Thêm/xóa thể loại.",
+  "all_categories" : "Tất cả",
+  "invalid_category" : "Xin lỗi,không có thể loại này"
 }

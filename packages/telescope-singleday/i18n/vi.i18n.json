@@ -1,2 +1,12 @@
 {
+    "singleday" : "Một ngày",
+    "the_top_5_posts_of_each_day" : "5 bài hay nhất mỗi ngày.",
+    "previous_day" : "Trước",
+    "next_day" : "Sau",
+    "sorry_no_posts_for_today" : "Không có bài nào hôm nay",
+    "sorry_no_posts_for" : "Không có bài nào",
+    "today" : "Hôm nay",
+    "yesterday" : "Hôm qua",
+    "single_day" : "Một ngày",
+    "posts_of_a_single_day" : "Bài của một ngày."
 }

@@ -9,5 +9,6 @@
   "link" : "link",
   "edit" : "Sửa",
   "reply" : "Trả lời",
-  "no_comments" : "Không ý kiến."
+  "no_comments" : "Không ý kiến.",
+  "please_sign_in_to_reply" : "Đăng nhập để trả lời"
 }

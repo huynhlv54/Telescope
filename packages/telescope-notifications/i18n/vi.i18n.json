@@ -6,8 +6,15 @@
   "someone_replied_to_your_comment_on" : "Có người trả lời ý kiến của bạn",
   "no_notifications" : "Không có thông báo",
   "1_notification" : "1 thông báo",
-  "notifications" : "Thông báo",
+  "notifications" : "thông báo",
   "mark_all_as_read" : "Đánh dấu đã đọc",
+  "left_a_new_comment_on" : "để lại ý kiến",
   "has_replied_to_your_comment_on" : " đã trả lời ý kiến của bạn",
-  "mark_as_read" : "Đã đọc"
+  "mark_as_read" : "Đã đọc",
+  "you_have_been_unsubscribed_from_all_notifications" : "Bạn đã hủy đăng kí nhận tất cả các thông báos.",
+  "user_not_found" : "Không tìm thấy người dùng",
+  "notifications_fieldset" : "Thông báo",
+  "emailNotifications" : "Thông báo qua email",
+  "your_post" : "Bài của bạn",
+  "has_been_approved" : "đã được chấp nhận"
 }
