@@ -51,7 +51,8 @@ Template.single_day_nav.helpers({
     if (diff === 1) {
       return i18n.t("yesterday");
     }
-    return currentDate.format("dddd, MMMM Do YYYY");
+    //return currentDate.format("dddd, MMMM Do YYYY");
+    return currentDate.format("LL");
   },
   previousDateURL: function(){
     var currentDate = moment(this.terms.date);

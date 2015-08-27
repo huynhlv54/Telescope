@@ -60,5 +60,6 @@
   "views" : "views",
   "comment" : "comment",
   "point" : "point",
-  "points" : "points"
+  "points" : "points",
+  "post_table_row_header": "Post"
 }

@@ -4,7 +4,8 @@ Meteor.startup(function () {
       return moment(this.timestamp).format("HH:mm:ss");
     },
     getDate: function () {
-      currentDate = moment(this.timestamp).format("MMMM DD");
+      //currentDate = moment(this.timestamp).format("MMMM DD");
+      currentDate = moment(this.timestamp).format("DD MMMM");
       return currentDate;
     },
     searchCount: function () {
@@ -20,7 +21,8 @@ Meteor.startup(function () {
       }).count();
     },
     isNewDate: function () {
-      return (typeof currentDate === 'undefined') ? true : (currentDate !== moment(this.timestamp).format("MMMM DD"));
+      //return (typeof currentDate === 'undefined') ? true : (currentDate !== moment(this.timestamp).format("MMMM DD"));
+      return (typeof currentDate === 'undefined') ? true : (currentDate !== moment(this.timestamp).format("DD MMMM"));
     },
     loadMoreUrl: function() {
       var count = parseInt(Session.get('logsLimit')) + 100;

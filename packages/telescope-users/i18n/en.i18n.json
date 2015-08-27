@@ -61,5 +61,7 @@
   "invited" : "Invited",
   "uninvited" : "Uninvited",
   "filter_by" : "Filter by",
-  "sort_by" : "Sort by"
+  "sort_by" : "Sort by",
+  "commentedAt": "Commented at",
+  "subscribedAt": "Subscribe at"
 }

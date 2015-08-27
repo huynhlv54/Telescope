@@ -1,5 +1,9 @@
 {
   "translation_key" : "translation string",
   "invite_someone": "Invite someone",
-  "this_is_not_a_valid_email": "This is not a valid email"
+  "this_is_not_a_valid_email": "This is not a valid email",
+  "invites_label": "Invites",
+  "invite_accepted_label":"Accepted",
+  "invites_label": "Invites",
+  "accepted_label": "Accepted"  
 }

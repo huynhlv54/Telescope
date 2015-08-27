@@ -1,9 +1,11 @@
 i18n = {};
 
+var momentjs_version = "2.10.6";
+
 // do this better:
 i18n.setLanguage = function (language) {
   // Session.set('i18nReady', false);
-  // console.log('i18n loading… '+language)
+  console.log('i18n loading… '+language)
 
   // moment
   Session.set('momentReady', false);
@@ -11,7 +13,7 @@ i18n.setLanguage = function (language) {
   if (language.toLowerCase() === "en") {
     Session.set('momentReady', true);
   } else {
-    $.getScript("//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/lang/" + language.toLowerCase() + ".js", function (result) {
+    $.getScript("https://cdnjs.cloudflare.com/ajax/libs/moment.js/" + momentjs_version + "/locale/" + language.toLowerCase() + ".js", function (result) {
       moment.locale(language);
       Session.set('momentReady', true);
       Session.set('momentLocale', language);

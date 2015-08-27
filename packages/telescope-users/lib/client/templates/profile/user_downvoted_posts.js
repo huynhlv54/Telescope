@@ -9,7 +9,8 @@ Template.user_downvoted_posts.helpers({
         fieldValue: function (post) {
           var user = this.currentUser;
           var vote = _.findWhere(user.telescope.downvotedPosts, {itemId: post._id});
-          return moment(vote.votedAt).format("MM/DD/YYYY, HH:mm");
+          //return moment(vote.votedAt).format("MM/DD/YYYY, HH:mm");
+          return moment(vote.votedAt).format("HH:mm DD/MM/YYYY");
         }
       },
       terms: {

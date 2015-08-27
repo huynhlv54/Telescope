@@ -7,7 +7,8 @@ Template.user_comments.helpers({
         currentUser: user,
         fieldLabel: i18n.t("commentedAt"),
         fieldValue: function (comment) {
-          return moment(comment.createdAt).format("MM/DD/YYYY, HH:mm");
+          //return moment(comment.createdAt).format("MM/DD/YYYY, HH:mm");
+          return moment(comment.createdAt).format("HH:mm DD/MM/YYYY");
         }
       },
       terms: {

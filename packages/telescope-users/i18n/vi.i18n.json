@@ -26,7 +26,7 @@
   "new_posts" : "Bài mới",
   "comments_on_my_posts" : "Bình luận trên bài của tôi",
   "replies_to_my_comments" : "Trả lời ý kiến của tôi",
-  "comments" : "ý kiến",
+  "comments" : "Bình luận",
   "forgot_password" : "Quên mật khẩu?",
   "profile_updated" : "Đã cập nhật hồ sơ",
   "please_fill_in_your_email_below_to_finish_signing_up" : "Xin nhập email của bạn dưới đây để hoàn thành việc đăng ký.",
@@ -40,7 +40,7 @@
   "password_reset_link_sent" : "Mật khẩu đã được gửi!",
   "name" : "Tên",
   "posts" : "Bài",
-  "comments_" : "Ý kiến",
+  "comments_" : "Bình luận",
   "karma" : "Điểm",
   "is_invited" : "Được mời?",
   "is_admin" : "Là Admin?",
@@ -61,5 +61,7 @@
   "invited" : "Mời",
   "uninvited" : "Không mời",
   "filter_by" : "Lọc theo",
-  "sort_by" : "Sắp xếp theo"
+  "sort_by" : "Sắp xếp theo",
+  "commentedAt": "Bình luận lúc",
+  "subscribedAt": "Nhận tin từ"
 }

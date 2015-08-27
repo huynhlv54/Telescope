@@ -9,4 +9,13 @@ telescope-page
 telescope-search
 telescope-singleday
 telescope-user
+
 TODO: Telescope: Change date-time format
+TODO: Translate the telescope-notifications/custom-fields.js
+  Q: How do we translate in a JavaScript file?
+    More specifically: How do we translate an autoform?
+TODO: Translsate the "subscribeAt". Where does that string come from?
+TODO: Translate dates and times
+  ... minutes ago
+  ... Wednesday ....
+  >> TODO: Translate telescope-core/handlebars.js  

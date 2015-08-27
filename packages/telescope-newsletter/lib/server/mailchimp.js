@@ -42,7 +42,8 @@ scheduleCampaign = function (campaign, isTest) {
       console.log( '// Campaign created');
       // console.log(campaign)
 
-      var scheduledTime = moment().utcOffset(0).add(1, 'hours').format("YYYY-MM-DD HH:mm:ss");
+      //var scheduledTime = moment().utcOffset(0).add(1, 'hours').format("YYYY-MM-DD HH:mm:ss");
+      var scheduledTime = moment().utcOffset(0).add(1, 'hours').format("HH:mm:ss DD-MM-YYYY");
 
       var scheduleOptions = {
         cid: mailchimpCampaign.id,

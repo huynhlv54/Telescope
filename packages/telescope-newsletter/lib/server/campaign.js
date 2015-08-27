@@ -36,7 +36,8 @@ buildCampaign = function (postsArray) {
       postLink: Posts.getLink(post, true),
       profileUrl: Users.getProfileUrl(postUser, true),
       postPageLink: Posts.getPageUrl(post, true),
-      date: moment(post.postedAt).format("MMMM D YYYY"),
+      //date: moment(post.postedAt).format("MMMM D YYYY"),
+      date: moment(post.postedAt).format("l"), //  EX: 31/12/2015
       authorAvatarUrl: Avatar.getUrl(postUser)
     });
 
@@ -75,7 +76,8 @@ buildCampaign = function (postsArray) {
   // 2. Wrap posts HTML in digest template
   var digestHTML = Telescope.email.getTemplate('emailDigest')({
     siteName: Settings.get('title'),
-    date: moment().format("dddd, MMMM Do YYYY"),
+    //date: moment().format("dddd, MMMM Do YYYY"),
+    date: moment().format("LL"),
     content: postsHTML
   });
 

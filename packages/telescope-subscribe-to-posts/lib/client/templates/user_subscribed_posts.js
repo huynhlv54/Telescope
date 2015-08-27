@@ -9,7 +9,8 @@ Template.user_subscribed_posts.helpers({
         fieldValue: function (post) {
           var user = this.currentUser;
           var item = _.findWhere(user.telescope.subscribedItems.Posts, {itemId: post._id});
-          return moment(item.subscribedAt).format("MM/DD/YYYY, HH:mm");
+          //return moment(item.subscribedAt).format("MM/DD/YYYY, HH:mm");
+          return moment(item.subscribedAt).format("HH:mm DD/MM/YYYY");
         }
       },
       terms: {

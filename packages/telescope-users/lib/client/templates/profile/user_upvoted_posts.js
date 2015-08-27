@@ -9,7 +9,7 @@ Template.user_upvoted_posts.helpers({
         fieldValue: function (post) {
           var user = this.currentUser;
           var vote = _.findWhere(user.telescope.upvotedPosts, {itemId: post._id});
-          return moment(vote.votedAt).format("MM/DD/YYYY, HH:mm");
+          return moment(vote.votedAt).format("HH:mm DD/MM/YYYY");
         }
       },
       terms: {

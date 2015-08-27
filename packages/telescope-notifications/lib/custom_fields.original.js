@@ -30,52 +30,52 @@ Users.addField([
   {
     fieldName: 'telescope.notifications.users',
     fieldSchema: {
-      label: 'Người dùng mới',
+      label: 'New users',
       type: Boolean,
       optional: true,
       defaultValue: false,
       editableBy: ['admin'],
       autoform: {
-        group: 'Nhận thông báo qua email'
+        group: 'Email Notifications'
       }
     }
   },
   {
     fieldName: 'telescope.notifications.posts',
     fieldSchema: {
-      label: 'Bài mới',
+      label: 'New posts',
       type: Boolean,
       optional: true,
       defaultValue: false,
       editableBy: ['admin', 'member'],
       autoform: {
-        group: 'Nhận thông báo qua email'
+        group: 'Email Notifications'
       }
     }
   },
   {
     fieldName: 'telescope.notifications.comments',
     fieldSchema: {
-      label: 'Bình luận trên bài của tôi',
+      label: 'Comments on my posts',
       type: Boolean,
       optional: true,
       defaultValue: true,
       editableBy: ['admin', 'member'],
       autoform: {
-        group: 'Nhận thông báo qua email'
+        group: 'Email Notifications'
       }
     }
   },
   {
     fieldName: 'telescope.notifications.replies',
     fieldSchema: {
-      label: 'Trả lời bình luận của tôi',
+      label: 'Replies to my comments',
       type: Boolean,
       optional: true,
       defaultValue: true,
       editableBy: ['admin', 'member'],
       autoform: {
-        group: 'Nhận thông báo qua email'
+        group: 'Email Notifications'
       }
     }
   }
